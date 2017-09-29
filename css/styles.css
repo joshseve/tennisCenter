@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Century Gothic", "CenturyGothic", "AppleGothic", "sans-serif";
+}
+
+header{
+	width: 100%;
+	background: rgba(255,255,255,0.9);
+	height: 40px;
+	position: fixed;
+}
+
+.topnav {
+	overflow: hidden;
+	float: left;
+	text-align: right;
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 15px 0 5px;
+	padding: 0 10px;
+	color: #000;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.topnav a:hover {
+	color: #0173CE;
+}
+
+.topnav a.active {
+	color: #0173CE;
+}
+
+body{
+	background-image: url(../img/tennisCourt.jpg);
+	background-attachment: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+h3{
+	margin-top: 80px;
+	background-color: #FA5000;
+	color: #FFF;
+}
+
+.cuadro-blanco{
+	/*background-color: #FFF;*/
+	font-size: 12px;
+}
+
+.fondo-blanco{
+	background-color: #FFF;
+}
+
+.frase{
+	margin-top: 30px;
+	font-size: 12px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.autor{
+	font-size: 12px;
+	color: #FFF;
+}
+
+.siguiente-seccion{
+	width: 20px;
+	height: 15px;
+	display:block;
+	margin:auto;
+	margin-top: 40px;
+}
+
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 10px;
+	/*border: 1px solid red;*/
+}
+
+.col-1 {
+	width: 8.33333%; }
+.col-2 {
+	width: 16.66667%; }
+.col-3 {
+	width: 25%; }
+.col-4 {
+	width: 33.33333%; }
+.col-5 {
+	width: 41.66667%; }
+.col-6 {
+	width: 50%; }
+.col-7 {
+	width: 58.33333%; }
+.col-8 {
+	width: 66.66667%; }
+.col-9 {
+	width: 75%; }
+.col-10 {
+	width: 83.33333%; }
+.col-11 {
+	width: 91.66667%; }
+.col-12 {
+	width: 100%; }
+
+
+[class*="offset-"] {
+	float: left;
+	padding: 10px;
+	/*border: 1px solid green;*/
+}
+
+.offset-1 {
+	margin-left: 8.33333%; }
+.offset-2 {
+	margin-left: 16.66667%; }
+.offset-3 {
+	margin-left: 25%; }
+.offset-4 {
+	margin-left: 33.33333%; }
+.offset-5 {
+	margin-left: 41.66667%; }
+.offset-6 {
+	margin-left: 50%; }
+.offset-7 {
+	margin-left: 58.33333%; }
+.offset-8 {
+	margin-left: 66.66667%; }
+.offset-9 {
+	margin-left: 75%; }
+.offset-10 {
+	margin-left: 83.33333%; }
+.offset-11 {
+	margin-left: 91.66667%; }
+.offset-12 {
+	margin-left: 100%; }
